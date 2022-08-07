@@ -14,4 +14,9 @@ The data has folders which contains a train folder for training data and test fo
 A pre-trained model, MobileNetV2 is imported and applied to the model as a feature extraction layer. The model is also designed according to the U-Net architecture. It has two parts known as the downward stack and the upsampling path. The downward stack functions as a feature extractor whereas the upsampling path will double the dimension of inputs.
 
 ### 3.3 Model training
-The model has been trained with a batch size of 16 for 100 epochs. Earlystopping is also applied in training the model. 
+The model has been trained with a batch size of 16 for 15 epochs. Earlystopping is also applied in training the model. The training stops at 15 epoch with training accuracy of 96%. 
+
+## 4.0 Results
+![download](https://user-images.githubusercontent.com/108327348/183277586-e2b90b83-83c6-4563-ba43-2f92a662b0b7.png)
+![download (1)](https://user-images.githubusercontent.com/108327348/183277611-10f9646b-7459-43ad-bfbe-d7d7466c9f15.png)
+
